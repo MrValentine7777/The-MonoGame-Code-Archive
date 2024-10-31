@@ -21,6 +21,8 @@ namespace Using_Unicode_Characters_in_Window_Title
             Window.Title = Encoding.Unicode.GetString(Encoding.Unicode.GetBytes(title));
             // Uncomment the following line to see that UTF8 is not supported
             // Window.Title = Encoding.UTF8.GetString(Encoding.Unicode.GetBytes(title));
+
+            // You can test your system on https://dotnetfiddle.net/vJ7x48
         }
 
         protected override void Initialize()
